@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/burger_hub_nav_graph"
+    app:startDestination="@id/burgerHubFragment">
+
+    <fragment
+        android:id="@+id/burgerHubFragment"
+        android:name="com.example.burger_hub_fb.ui.view.BurgerHubFragment"
+        android:label="BurgerHubFragment"
+        tools:layout="@layout/fragment_burger_hub"/>
+
+</navigation>
