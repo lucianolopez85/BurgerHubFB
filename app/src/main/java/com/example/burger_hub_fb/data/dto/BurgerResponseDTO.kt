@@ -1,10 +1,10 @@
-package com.example.burger_hub_fb.data.model
+package com.example.burger_hub_fb.data.dto
 
-data class BurgerResponse(
+data class BurgerResponseDTO(
     val desc: String?,
     val id: Int?,
-    val imageResponse: List<ImageResponse?>?,
-    val ingredientResponses: List<IngredientResponse?>?,
+    val imageResponseDTO: List<ImageResponseDTO?>?,
+    val ingredientResponsDTO: List<IngredientResponseDTO?>?,
     val name: String?,
     val price: Double?,
     val veg: Boolean?

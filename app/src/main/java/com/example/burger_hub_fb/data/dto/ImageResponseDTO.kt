@@ -1,6 +1,6 @@
-package com.example.burger_hub_fb.data.model
+package com.example.burger_hub_fb.data.dto
 
-data class ImageResponse(
+data class ImageResponseDTO(
     val lg: String?,
     val sm: String?
 )

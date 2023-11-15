@@ -1,10 +1,10 @@
-package com.example.burger_hub_fb.domain.model
+package com.example.burger_hub_fb.domain.vo
 
-data class Burger(
+data class BurgerVO(
     val desc: String?,
     val id: Int?,
-    val image: List<Image?>?,
-    val ingredients: List<Ingredient?>?,
+    val imageVO: List<ImageVO?>?,
+    val ingredientVO: List<IngredientVO?>?,
     val name: String?,
     val price: Double?,
     val veg: Boolean?

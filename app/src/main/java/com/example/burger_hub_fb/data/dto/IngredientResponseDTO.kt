@@ -1,6 +1,6 @@
-package com.example.burger_hub_fb.data.model
+package com.example.burger_hub_fb.data.dto
 
-data class IngredientResponse(
+data class IngredientResponseDTO(
     val id: Int?,
     val img: String?,
     val name: String?

@@ -1,3 +1,11 @@
-package com.example.burger_hub_fb.commons
+sealed class StateView<T>(
+    val data: T? = null,
+    val message: String? = null
+) {
+    class Loading<T> : StateView<T>(data = null, message = null)
 
-sealed interface uiState
+    class Error<T>(message: String?) : StateView<T>(message = message)
+
+    class Success<T>(data: T, message: String? = null) :
+        StateView<T>(data = data, message = message)
+}

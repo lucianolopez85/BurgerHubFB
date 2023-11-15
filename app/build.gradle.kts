@@ -70,9 +70,9 @@ dependencies {
     implementation ("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0")
 
     // OKHttp
-//    implementation(platform("com.squareup.okhttp3:okhttp-bom:"))
-//    implementation("com.squareup.okhttp3:okhttp")
-//    implementation("com.squareup.okhttp3:logging-interceptor")
+    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.10.0"))
+    implementation("com.squareup.okhttp3:okhttp")
+    implementation("com.squareup.okhttp3:logging-interceptor")
 
     // Picasso
     implementation ("com.squareup.picasso:picasso:2.71828")
